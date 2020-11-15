@@ -16,4 +16,23 @@ use git diff --staged to see the complete change
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Experimental changes
-First, incomplete steps of a bigger change (prevent braking the project)
+First, incomplete steps of a bigger change (that could possible brake the project)
+collaborate with yourself: Stop or continue on a certain feature
+
+
+How do the diagrams help you visualize the branch structure?
+
+Find the last comment commit with two branches
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The label of the other commit disappears.
+All commits of the merged branch are on the other branch. Commits are shown ordered by time of creation.
+Use git show to compare the changes introduced by one commit compared to its parent.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro: Fast for obvious cases
+Cons: There might be some cases, where the merge results in wrong results, which will not be detected.
