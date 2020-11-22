@@ -15,3 +15,9 @@ Describe the differences between forks, clones, and branches. When would you use
 fork: Sort of clone in githueb
 clone: Local copy of remote reposity
 branch: a distinct sequence of commits
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+merge master into local branch and then fast-forward your changes in the remote repository
+Offline work when the remote branch is not accessable
