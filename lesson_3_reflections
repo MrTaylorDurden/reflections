@@ -8,3 +8,10 @@ Be safe against data loss on local machine
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Changes on remote can be in conflict with local changes and e.g. break the local build.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+fork: Sort of clone in githueb
+clone: Local copy of remote reposity
+branch: a distinct sequence of commits
