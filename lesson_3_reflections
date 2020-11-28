@@ -26,3 +26,11 @@ Offline work when the remote branch is not accessable
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 It would be harder: It is harder to see which changes where introduced by a certain PR, since master is continously chaging.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Collaborate work: When there are many different pepople working on the master, in case of conflict changes might be overwritten without notice.
+
+Advantage of working in master: Faster, in particular when you are the only one working in a repo.
+Advantage of working in a branch: Conflicts with latest master are resolved before merging.
