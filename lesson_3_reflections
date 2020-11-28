@@ -21,3 +21,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 merge master into local branch and then fast-forward your changes in the remote repository
 Offline work when the remote branch is not accessable
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+It would be harder: It is harder to see which changes where introduced by a certain PR, since master is continously chaging.
